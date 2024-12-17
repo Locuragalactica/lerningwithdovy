@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 180px;
+}
+
+h1 {
+  margin: 50px 0 25px 0;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: work sans;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #06173d;
+}
+
+button {
+  background-color: #0451dd;
+  color: white;
+  width: 100%;
+  height: 40px;
+  border: none;
+}
+
+.hero-l textarea {
+  font-family: sans-serif;
+  height: 100px;
+  resize: none;
+}
+
+.title {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: stretch;
+}
+
+.hero-l {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 50px;
+  border: solid 0.5px #dddddd;
+}
+
+.hero-l input,
+textarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 22px;
+  padding: 8px 0px;
+  border: solid 0.5px #dddddd;
+  padding-left: 16px;
+}
+
+.hero-r {
+  width: 100%;
+  background-image: url(files/imagen-hero-contact.jpg);
+  /* Object cover (background image) */
+}
